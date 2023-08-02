@@ -1,0 +1,77 @@
+@media screen and (max-width: 1000px) {
+    body {
+        height:936px;
+        overflow: hidden;
+    }
+    .content {
+        flex-direction: column;
+        overflow-y: hidden;
+    }
+
+    .backgroundBlob {
+        height: 85vh;
+        width: 120vw;
+        margin-left:-69vw; 
+    }
+
+    .backgroundBlob2 {
+        height: 185vh;
+        width: 120vw;
+        margin: -48vh 0 0 40vw ;
+    }
+
+
+    .text {
+        margin: 35vh auto 0 auto;
+        width: 79vmin;
+        text-align: center;
+        position: relative;
+    }
+    .text>p {
+        font-size: 2vh;
+        height: 20vh;
+    }
+    .text>h1 {
+        font-weight: 500;
+        font-size: 4vh;
+    }
+
+
+
+    .phone {
+        height: 70vh;
+        width: 65vmin;
+        margin:8vh auto 0 auto;
+        padding: 0;
+    }
+    .gap {
+        width: 36vw;
+    }
+    .contactBar {
+        height: 8vh;
+        width: 64vw;
+        margin: -2vh 2vh 0vh 2vw;
+    }
+     .contactInfo {
+        width: 64vw;
+     }
+     .name-status {
+        width: 40vw;
+     }
+    .interface {
+        margin-top: 7.7vh;
+        margin: 2.4vh 2vw 0 2vw;
+        height: 50vh;
+        width: 64vmin;
+    }
+
+
+
+
+
+
+
+
+
+
+}
